@@ -44,23 +44,23 @@ class Icici(object):
 		# add account statement pagination api endpoint - 6th index
 		if use_sandbox:
 			self.urls =  [
-				'https://apibankingonesandbox.icicibank.com/api/Corporate/CIB/v1/BalanceInquiry',
-				'https://apibankingonesandbox.icicibank.com/api/Corporate/CIB/v1/AccountStatement',
-				'https://apibankingonesandbox.icicibank.com/api/Corporate/CIB/v1/Transaction',
-				'https://apibankingonesandbox.icicibank.com/api/Corporate/CIB/v1/TransactionInquiry',
-				'https://apibankingonesandbox.icicibank.com/api/Corporate/CIB/v1/TransactionOTP',
-				'https://apibankingonesandbox.icicibank.com/api/Corporate/CIB/v1/Create',
-				'https://apibankingonesandbox.icicibank.com/api/Corporate/CIB/v1/AccountStatement'
+				'https://apibankingonesandbox.icici.bank.in/api/Corporate/CIB/v1/BalanceInquiry',
+				'https://apibankingonesandbox.icici.bank.in/api/Corporate/CIB/v1/AccountStatement',
+				'https://apibankingonesandbox.icici.bank.in/api/Corporate/CIB/v1/Transaction',
+				'https://apibankingonesandbox.icici.bank.in/api/Corporate/CIB/v1/TransactionInquiry',
+				'https://apibankingonesandbox.icici.bank.in/api/Corporate/CIB/v1/TransactionOTP',
+				'https://apibankingonesandbox.icici.bank.in/api/Corporate/CIB/v1/Create',
+				'https://apibankingonesandbox.icici.bank.in/api/Corporate/CIB/v1/AccountStatement'
 				]
 		else:
 			self.urls = [
-				'https://apibankingone.icicibank.com/api/Corporate/CIB/v1/BalanceInquiry',
-				'https://apibankingone.icicibank.com/api/Corporate/CIB/v1/AccountStatement',
-				'https://apibankingone.icicibank.com/api/Corporate/CIB/v1/Transaction',
-				'https://apibankingone.icicibank.com/api/Corporate/CIB/v1/TransactionInquiry',
-				'https://apibankingone.icicibank.com/api/Corporate/CIB/v1/TransactionOTP',
-				'https://apibankingone.icicibank.com/api/Corporate/CIB/v1/Create',
-				'https://apibankingone.icicibank.com/api/Corporate/CIB/v1/AccountStatement'
+				'https://apibankingone.icici.bank.in/api/Corporate/CIB/v1/BalanceInquiry',
+				'https://apibankingone.icici.bank.in/api/Corporate/CIB/v1/AccountStatement',
+				'https://apibankingone.icici.bank.in/api/Corporate/CIB/v1/Transaction',
+				'https://apibankingone.icici.bank.in/api/Corporate/CIB/v1/TransactionInquiry',
+				'https://apibankingone.icici.bank.in/api/Corporate/CIB/v1/TransactionOTP',
+				'https://apibankingone.icici.bank.in/api/Corporate/CIB/v1/Create',
+				'https://apibankingone.icici.bank.in/api/Corporate/CIB/v1/AccountStatement'
 				]
 
 	def get_headers(self):
